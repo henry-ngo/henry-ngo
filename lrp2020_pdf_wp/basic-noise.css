@@ -1,0 +1,76 @@
+/*
+Original design: Basic Noise (v1.1 - Sep 11, 2012) - A free xhtml/css website template by Andreas Viklund.
+For more information, see http://andreasviklund.com/templates/basic-noise/
+*/
+
+*{margin:0;padding:0;}
+body{background:#1a1a1a url(images/background.jpg);color:#555555;font:76% Georgia,Times New Roman,serif;}
+p{line-height:1.6em;font-size:1.2em;margin-bottom:18px;}
+a{color:#000000;text-decoration:none}
+a.pub{font-size:1.1em}
+a:hover{color:#000000;text-decoration:underline}
+h1{color:#000000;font-family:Georgia,serif;font-size:2.4em;font-weight:400;margin:0 0 12px 0;}
+h2{color:#000000;font-family:Georgia,serif;font-size:2.2em;font-weight:400;margin:0 0 10px 0;}
+h3{color:#000000;font-family:Georgia,serif;font-size:1.6em;font-weight:400;margin:0 0 8px;}
+ul,ol,dl{margin:0 0 20px 20px; padding:0;}
+li{padding-bottom:5px;}
+img{display:block;margin:0 auto;border:thick solid #cccccc}
+img.icon{float:left;vertical-align:middle;border:none;padding-right:5px} /* For image icons! */
+
+#containerfull,#container980,#container760,#container600{margin:0 auto;padding:0;overflow:hidden;}
+#containerfull{width:100%;border:0;}
+#container980{width:980px;}
+#container760{width:760px;}
+#container600{width:600px;}
+
+#header{margin:0 auto;padding:10px 25px;}
+#header h1{text-align:center;margin:0;padding:20px 0 0;color:#ffffff}
+#header h1 a{color:#dddddd; font-family:Georgia,serif;font-size:1.8em;font-weight:400;text-decoration:none;}
+#header h2{text-align:center;color:#dddddd;padding:0 0 20px 0;margin:0;font-family:Georgia,serif;font-size:1.6em;font-weight:400;}
+
+#menu{height:40px;}
+#menu ul{height:40px;list-style:none;margin:0;padding:0 25px 0 0;}
+#menu ul li{background-color:#333;display:block;float:right;margin:0 5px 0 0;padding:0;}
+#menu ul li a{background-color:#333;color:#ddd;display:block;font-size:1.4em;padding:10px 12px;text-decoration:none;}
+#menu ul li a:hover{color:#fff;}
+#menu ul li a.current{background-color:#fff;color:#333;border-bottom:1px solid #fff;}
+#menu ul li a.currentFeature{background-color:#eee;color:#333;border-bottom:1px solid #eee;}
+
+#feature{background-color:#eee;color:#555;padding:25px 25px 5px;border-top:1px solid #ccc;border-bottom:1px solid #ccc;}
+#feature h2{color:#dddddd;font-size:2em;line-height:1em;}
+#feature p{font-size:1.4em;margin:0 0 15px 0; line-height:1.5em;}
+#feature img.photo{display:block;margin:0 auto;border:medium solid #cccccc}
+#feature img.icon{float:left;vertical-align:middle;border:none;padding-right:5px} /* For image icons! */
+
+#main{clear:both;margin:0;background-color:#fff;padding:25px 25px 5px;}
+#content{width:100%;}
+
+#credits{color:#888;padding:15px 25px;text-align:center;}
+#credits p{font-size:1.2em;margin:0;padding:0;line-height:1.4em;}
+#credits a{color:#888;font-weight:400;}
+
+#creditsPhoto{color:#000;text-align:right;}
+#creditsPhoto p{font-size:0.8em;line-height:1.1em;margin-bottom:1px;margin-top:1px;}
+#creditsPhoto p.ex{width=90%;}
+#creditsPhoto a{color:#000;font-weight:400;}
+
+#creditsPhoto90{color:#000;text-align:right;width=90%;}
+#creditsPhoto90 p{font-size:0.8em;line-height:1.1em;margin-bottom:1px;margin-top:1px;margin-right:100px;}
+#creditsPhoto90 a{color:#000;font-weight:400;}
+
+#caption{text-align:justify;}
+#caption p{font-size:1.0em;line-height:1.1em;}
+#caption a{color:#000;font-weight:400;}
+#caption-center{text-align:center}
+#caption-center p{font-size:1.0em;line-height:1.1em;}
+
+.left{float:left;width:49%;}
+.leftWide{float:left;width:65%;}
+.leftNarrow{float:left;width:32%;}
+.right{float:right;width:48%;}
+.rightWide{float:right;width:65%;}
+.rightNarrow{float:right;width:32%;}
+.credit90{width:90%;}
+.clear{clear:both;visibility:hidden;}
+.small{font-size:0.7em;}
+.imgContainer{display:inline-block;;}
